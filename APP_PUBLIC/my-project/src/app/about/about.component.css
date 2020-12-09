@@ -1,0 +1,20 @@
+h1,
+p {
+  color: rgb(251, 155, 0);
+  margin: 30px 18px;
+  text-align: center;
+}
+
+p {
+  color: rgb(251, 155, 0);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+div {
+  display: flex;
+}
+img {
+  height: 300px;
+  margin: 0 auto;
+}

@@ -1,0 +1,14 @@
+<ol>
+    <div *ngFor="let mobile of mobiles">
+        <li>
+            <a routerLink="/mobile/{{mobile._id}}">
+               <img src="../../assets/images/image.png" alt="phoneImage" /> <br>
+               Name : {{mobile.name}} <br> 
+               Extra : {{mobile.extra}} <br>
+               Full price : ${{mobile.fullPrice}}
+               <br>
+               <br>
+            </a>
+        </li>
+    </div>
+</ol>

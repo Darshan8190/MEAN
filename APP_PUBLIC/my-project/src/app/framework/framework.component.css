@@ -1,0 +1,32 @@
+div{
+  display: flex;
+  background-color: rgb(55, 43, 56);
+}
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+  }
+ 
+  li {
+    float: left;
+    height: 60px;
+  }
+  
+  li a {
+    color: rgb(251, 155, 0);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 16px;
+  }
+  
+  li a:hover {
+    /* color: rgb(21, 187, 228); */
+    color: #7D7289; 
+
+  }
+

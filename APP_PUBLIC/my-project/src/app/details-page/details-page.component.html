@@ -1,0 +1,27 @@
+<app-header [content] = "pageContent.header"></app-header>
+
+
+<p id="detailsTitle">More details on <span>{{newMobile.name}}</span></p>
+
+<div class="container">
+    <img src="../../assets/images/image.png" alt="phoneImage" />
+
+   <div>
+    <p>Name : {{newMobile.name}}</p>
+    <p>Color : {{newMobile.color}}</p>
+    <p>Storage : {{newMobile.storage}}</p>
+    <p>Down Payment : ${{newMobile.downPayment}}</p>
+    <p>Monthly Price : ${{newMobile.monthlyPrice}}</p>
+    <p>Extra : {{newMobile.extra}}</p>
+    <p>Full Price : ${{newMobile.fullPrice}}</p>
+    <p>Comments : {{newMobile.comments}}</p>
+   </div>
+</div>
+ <div>
+
+
+</div> 
+
+<div class="button">
+    <button type="button" (click)="deleteMobile(newMobile)" id="delete">Delete Device</button>
+</div>

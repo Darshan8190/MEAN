@@ -1,0 +1,40 @@
+div{
+    display: flex;
+}
+
+div form{
+    margin: 100px auto;
+    background-color: rgb(93, 72, 73);
+    border-radius: 5px;
+}
+
+input {
+  background-color: rgb(169, 155, 185);
+    border-radius: 5px;
+    padding: 5px 8px;
+    border: none;
+    float: right;
+    font-size: 1.1rem;
+    margin: 0 18px;
+    float: right;
+  }
+
+  label {
+    color: #04000F;
+    margin: 0 18px;
+    font-weight: 700;
+  }
+
+button {
+    background-color: rgb(251, 155, 0);
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 22px 0 0 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+    width: 100%;
+}  

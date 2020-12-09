@@ -1,0 +1,71 @@
+#detailsTitle {
+  font-size: 2.3rem;
+  margin: 40px 0;
+  /* color:rgb(21, 187, 228); */
+  color: #7d7289;
+}
+span {
+  font-weight: bold;
+}
+p {
+  color: rgb(255, 145, 0);
+  margin: 18px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.container {
+
+  margin: 25px 320px;
+  display: flex;
+}
+
+.container div,img{
+  display: inline-block;
+  margin: 0 auto;
+
+}
+div form {
+  margin: 30px auto 0 auto;
+  background-color: rgb(93, 72, 73);
+  border-radius: 5px;
+  width: 35%;
+}
+img {
+  height: 350px;
+}
+input {
+  background-color: rgb(169, 155, 185);
+  border-radius: 5px;
+  padding: 5px 8px;
+  border: none;
+  font-size: 1.1rem;
+  margin: 0 18px;
+  float: right;
+}
+
+label {
+  color: #04000f;
+  margin: 0 14px;
+  font-weight: 700;
+}
+
+.button{
+  display: flex;
+}
+button {
+  background-color: rgb(255, 145, 0);
+  border: none;
+  color: #04000f;
+  padding: 14px 28px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  width: 100%;
+  margin-top: 20px;
+}
+div #delete {
+  margin: 0 auto;
+  width: 15%;
+}

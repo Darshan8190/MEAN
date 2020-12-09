@@ -1,0 +1,40 @@
+extends layout
+
+// registration form
+block content
+  p " "
+  form(method='POST' action='')
+    label(for='name' ) Name :
+    input(type='text' name='name' style='border-radius: 5px;')
+
+    br
+    br
+
+    label(for='downPayment') Down Payment : 
+    input(type='text' name='downPayment' style='border-radius: 5px;')
+
+    br
+    br
+
+    label(for='monthlyPrice') Monthly Price : 
+    input(type='text' name='monthlyPrice' style='border-radius: 5px;')
+
+    br
+    br
+
+    label(for='extra') Extra : 
+    input(type='text' name='extra' style='border-radius: 5px;')
+
+    br
+    br
+
+    label(for='fullPrice') Full Price : 
+    input(type='text' name='fullPrice' style='border-radius: 5px;')
+
+    br
+    br
+
+    button(type='submit' style="border-radius: 5px; font-size:1em; font-weight:bold") Submit
+
+    br 
+    br

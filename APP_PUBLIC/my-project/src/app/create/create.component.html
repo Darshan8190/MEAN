@@ -1,0 +1,57 @@
+<div>
+    <form (ngSubmit)="createNewMobile(newMobile)">
+        <br>
+        <br>
+    
+        <label for="name">Name</label>
+        <input [(ngModel)]="newMobile.name" id="name" name="name" required="required"> 
+    
+        <br>
+        <br>
+
+        <label for="color">Color</label>
+        <input [(ngModel)]="newMobile.color" id="color" name="color" required="required">
+    
+        <br>
+        <br>
+
+        <label for="storage">Storage</label>
+        <input [(ngModel)]="newMobile.storage" id="storage" name="storage" required="required">
+    
+        <br>
+        <br>
+    
+        <label for="downPayment">Down Payment</label>
+        <input [(ngModel)]="newMobile.downPayment" id="downPayment" name="downPayment" required="required">
+    
+        <br>
+        <br>
+    
+        <label for="monthlyPrice">Monthly Price</label>
+        <input [(ngModel)]="newMobile.monthlyPrice" id="monthlyPrice" name="monthlyPrice" required="required">
+    
+        <br>
+        <br>
+    
+        <label for="extra">Extra</label>
+        <input [(ngModel)]="newMobile.extra" id="extra" name="extra" required="required">
+        
+        <br>
+        <br>
+    
+        <label for="fullPrice">Full Price</label>
+        <input [(ngModel)]="newMobile.fullPrice" id="fullPrice" name="fullPrice" required="required">
+    
+        <br>
+        <br>
+
+        <label for="comments">Comments</label>
+        <input [(ngModel)]="newMobile.comments" id="comments" name="comments" required="required">
+    
+        <br>
+        <br>
+    
+        <button type="submit">Create</button>
+    </form>
+    
+</div>

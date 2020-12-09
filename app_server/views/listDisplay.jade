@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 #{title}
+  p Hear is a list of mobiles.
+  
+  each mobileItem in mobiles
+    ul.list-group.wd-con
+      li.list-group-item= mobileItem.name
+      li.list-group-item= mobileItem.fullPrice
